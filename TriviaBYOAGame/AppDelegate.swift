@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TriviaBYOAGame
 //
-//  Created by Khushali Joshi 2021 on 5/7/19.
+//  Created by Khushali Joshi/Aarti Jain/Felicia Wang 2021 on 5/7/19.
 //  Copyright © 2019 Khushali Joshi 2021. All rights reserved.
 //
 
