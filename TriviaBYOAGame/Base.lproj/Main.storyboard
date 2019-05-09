@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yTe-He-70c">
-                                <rect key="frame" x="802" y="664" width="318" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yTe-He-70c">
+                                <rect key="frame" x="801" y="664" width="318" height="100"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -39,7 +39,7 @@
                                     <segue destination="rSf-h8-CDN" kind="show" id="pDJ-L9-vTL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="TRIVIA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iD-pP-Gd5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRIVIA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iD-pP-Gd5">
                                 <rect key="frame" x="475" y="305" width="970" height="329"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="286"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,8 +48,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="yTe-He-70c" firstAttribute="leading" secondItem="6df-27-8hi" secondAttribute="leading" constant="711" id="0d9-Yb-gU0"/>
+                            <constraint firstItem="5iD-pP-Gd5" firstAttribute="leading" secondItem="6df-27-8hi" secondAttribute="leading" constant="385" id="269-We-3H3"/>
+                            <constraint firstItem="yTe-He-70c" firstAttribute="top" secondItem="5iD-pP-Gd5" secondAttribute="bottom" constant="30" id="4iO-fa-e4V"/>
                             <constraint firstItem="yTe-He-70c" firstAttribute="top" secondItem="5iD-pP-Gd5" secondAttribute="bottom" constant="30" id="5Qm-99-VUx"/>
+                            <constraint firstItem="6df-27-8hi" firstAttribute="trailing" secondItem="5iD-pP-Gd5" secondAttribute="trailing" constant="385" id="7Ha-8e-Gb5"/>
                             <constraint firstItem="5iD-pP-Gd5" firstAttribute="top" secondItem="TiC-Vw-u93" secondAttribute="bottom" constant="160" id="D0a-V0-Hco"/>
+                            <constraint firstItem="6df-27-8hi" firstAttribute="trailing" secondItem="yTe-He-70c" secondAttribute="trailing" constant="711" id="OIP-ge-4dR"/>
+                            <constraint firstItem="yTe-He-70c" firstAttribute="top" secondItem="5iD-pP-Gd5" secondAttribute="bottom" constant="30" id="SWB-Jk-Ifd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6df-27-8hi"/>
                     </view>
